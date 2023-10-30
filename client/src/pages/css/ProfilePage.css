@@ -1,0 +1,42 @@
+.profile-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .user-info h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .user-info p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .profile-bio p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  /* Customize the styles further to match your unique design requirements */
+  

@@ -1,0 +1,59 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.img_prifile_icon {
+  max-height: 45px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.brand_logo {
+  max-height: 50px;
+}
+
+.carousel-item {
+  height: 60vh;
+}
+
+.car_img {
+  height: 60vh;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.event_card_img {
+  max-height: 300px;
+}
+
+
+.single_event_bg {
+  background: url("./assets//Images/wave.svg");
+  min-height: 30vh;
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+
+.layer_single_event_bg {
+  background-color: rgba(0, 0, 0, .3);
+  min-height: 30vh;
+}
