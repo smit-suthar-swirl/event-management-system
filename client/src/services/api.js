@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Replace with your server's URL
+  baseURL: 'https://rich-rose-antelope-suit.cyclic.app', // Replace with your server's URL
 });
-
 export const registerUser = async (userData) => {
   try {
     const response = await api.post('/auth/register', userData);
