@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://rich-rose-antelope-suit.cyclic.app', // Replace with your server's URL
+  baseURL: 'https://rich-rose-antelope-suit.cyclic.app/api', // Replace with your server's URL
 });
 export const registerUser = async (userData) => {
   try {
